@@ -71,55 +71,55 @@ $EndComp
 $Comp
 L dk_Rectangular-Connectors-Headers-Male-Pins:640456-3 J?
 U 1 1 6073C451
-P 4050 800
-F 0 "J?" H 4328 854 50  0001 L CNN
-F 1 "640456-3" H 3950 650 50  0000 L CNN
-F 2 "digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 4250 1000 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 4250 1100 60  0001 L CNN
-F 4 "A19470-ND" H 4250 1200 60  0001 L CNN "Digi-Key_PN"
-F 5 "640456-3" H 4250 1300 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 4250 1400 60  0001 L CNN "Category"
-F 7 "Rectangular Connectors - Headers, Male Pins" H 4250 1500 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 4250 1600 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-amp-connectors/640456-3/A19470-ND/259010" H 4250 1700 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN HEADER VERT 3POS 2.54MM" H 4250 1800 60  0001 L CNN "Description"
-F 11 "TE Connectivity AMP Connectors" H 4250 1900 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4250 2000 60  0001 L CNN "Status"
-	1    4050 800 
-	-1   0    0    1   
+P 900 5150
+F 0 "J?" H 1178 5204 50  0001 L CNN
+F 1 "640456-3" H 800 5000 50  0000 L CNN
+F 2 "digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 1100 5350 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 1100 5450 60  0001 L CNN
+F 4 "A19470-ND" H 1100 5550 60  0001 L CNN "Digi-Key_PN"
+F 5 "640456-3" H 1100 5650 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1100 5750 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 1100 5850 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 1100 5950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/640456-3/A19470-ND/259010" H 1100 6050 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 3POS 2.54MM" H 1100 6150 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 1100 6250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1100 6350 60  0001 L CNN "Status"
+	1    900  5150
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 60773C6E
-P 3950 1250
-F 0 "R?" H 4018 1296 50  0001 L CNN
-F 1 "10kΩ" H 4018 1250 50  0000 L CNN
-F 2 "" H 3950 1250 50  0001 C CNN
-F 3 "~" H 3950 1250 50  0001 C CNN
-	1    3950 1250
-	1    0    0    -1  
+P 1350 5250
+F 0 "R?" H 1418 5296 50  0001 L CNN
+F 1 "10kΩ" H 1418 5250 50  0000 L CNN
+F 2 "" H 1350 5250 50  0001 C CNN
+F 3 "~" H 1350 5250 50  0001 C CNN
+	1    1350 5250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 60774FEA
-P 3850 1250
-F 0 "R?" H 3918 1296 50  0001 L CNN
-F 1 "220Ω" H 3918 1250 50  0000 L CNN
-F 2 "" H 3850 1250 50  0001 C CNN
-F 3 "~" H 3850 1250 50  0001 C CNN
-	1    3850 1250
-	-1   0    0    1   
+P 1350 5350
+F 0 "R?" H 1418 5396 50  0001 L CNN
+F 1 "220Ω" H 1418 5350 50  0000 L CNN
+F 2 "" H 1350 5350 50  0001 C CNN
+F 3 "~" H 1350 5350 50  0001 C CNN
+	1    1350 5350
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6078D59C
-P 4050 900
-F 0 "#PWR?" H 4050 650 50  0001 C CNN
-F 1 "GND" H 4055 727 50  0000 C CNN
-F 2 "" H 4050 900 50  0001 C CNN
-F 3 "" H 4050 900 50  0001 C CNN
-	1    4050 900 
-	1    0    0    -1  
+P 1000 5150
+F 0 "#PWR?" H 1000 4900 50  0001 C CNN
+F 1 "GND" H 1005 4977 50  0000 C CNN
+F 2 "" H 1000 5150 50  0001 C CNN
+F 3 "" H 1000 5150 50  0001 C CNN
+	1    1000 5150
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1200 1250 1250 1250
@@ -189,155 +189,187 @@ Connection ~ 1900 3250
 Wire Wire Line
 	1900 3250 1950 3250
 Wire Wire Line
-	3950 1150 3950 900 
+	1250 5250 1000 5250
 $Comp
 L dk_Rectangular-Connectors-Headers-Male-Pins:640456-3 J?
 U 1 1 6080A6DB
-P 4900 800
-F 0 "J?" H 5178 854 50  0001 L CNN
-F 1 "640456-3" H 4800 650 50  0000 L CNN
-F 2 "digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 5100 1000 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 5100 1100 60  0001 L CNN
-F 4 "A19470-ND" H 5100 1200 60  0001 L CNN "Digi-Key_PN"
-F 5 "640456-3" H 5100 1300 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 5100 1400 60  0001 L CNN "Category"
-F 7 "Rectangular Connectors - Headers, Male Pins" H 5100 1500 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 5100 1600 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-amp-connectors/640456-3/A19470-ND/259010" H 5100 1700 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN HEADER VERT 3POS 2.54MM" H 5100 1800 60  0001 L CNN "Description"
-F 11 "TE Connectivity AMP Connectors" H 5100 1900 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5100 2000 60  0001 L CNN "Status"
-	1    4900 800 
-	-1   0    0    1   
+P 900 4300
+F 0 "J?" H 1178 4354 50  0001 L CNN
+F 1 "640456-3" H 800 4150 50  0000 L CNN
+F 2 "digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 1100 4500 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 1100 4600 60  0001 L CNN
+F 4 "A19470-ND" H 1100 4700 60  0001 L CNN "Digi-Key_PN"
+F 5 "640456-3" H 1100 4800 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1100 4900 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 1100 5000 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 1100 5100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/640456-3/A19470-ND/259010" H 1100 5200 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 3POS 2.54MM" H 1100 5300 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 1100 5400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1100 5500 60  0001 L CNN "Status"
+	1    900  4300
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 6080A7BB
-P 4800 1250
-F 0 "R?" H 4868 1296 50  0001 L CNN
-F 1 "10kΩ" H 4868 1250 50  0000 L CNN
-F 2 "" H 4800 1250 50  0001 C CNN
-F 3 "~" H 4800 1250 50  0001 C CNN
-	1    4800 1250
-	1    0    0    -1  
+P 1350 4400
+F 0 "R?" H 1418 4446 50  0001 L CNN
+F 1 "10kΩ" H 1418 4400 50  0000 L CNN
+F 2 "" H 1350 4400 50  0001 C CNN
+F 3 "~" H 1350 4400 50  0001 C CNN
+	1    1350 4400
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 6080A7C5
-P 4700 1250
-F 0 "R?" H 4768 1296 50  0001 L CNN
-F 1 "220Ω" H 4768 1250 50  0000 L CNN
-F 2 "" H 4700 1250 50  0001 C CNN
-F 3 "~" H 4700 1250 50  0001 C CNN
-	1    4700 1250
-	-1   0    0    1   
+P 1350 4500
+F 0 "R?" H 1418 4546 50  0001 L CNN
+F 1 "220Ω" H 1418 4500 50  0000 L CNN
+F 2 "" H 1350 4500 50  0001 C CNN
+F 3 "~" H 1350 4500 50  0001 C CNN
+	1    1350 4500
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6080A7CF
-P 4900 900
-F 0 "#PWR?" H 4900 650 50  0001 C CNN
-F 1 "GND" H 4905 727 50  0000 C CNN
-F 2 "" H 4900 900 50  0001 C CNN
-F 3 "" H 4900 900 50  0001 C CNN
-	1    4900 900 
-	1    0    0    -1  
+P 1000 4300
+F 0 "#PWR?" H 1000 4050 50  0001 C CNN
+F 1 "GND" H 1005 4127 50  0000 C CNN
+F 2 "" H 1000 4300 50  0001 C CNN
+F 3 "" H 1000 4300 50  0001 C CNN
+	1    1000 4300
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4800 1150 4800 900 
+	1250 4400 1000 4400
 Wire Wire Line
-	4700 900  4700 1050
+	1450 4400 1550 4400
 Wire Wire Line
-	4800 3250 3950 3250
-Connection ~ 3950 3250
+	1450 5250 1550 5250
 Wire Wire Line
-	4800 1350 4800 1450
+	1450 5350 1550 5350
 Wire Wire Line
-	3950 1350 3950 1450
+	1550 5350 1550 5250
 Wire Wire Line
-	3850 1350 3850 1450
-Wire Wire Line
-	3850 1450 3950 1450
-Connection ~ 3950 1450
-Wire Wire Line
-	3950 1450 3950 3250
-Wire Wire Line
-	4700 1350 4700 1450
-Wire Wire Line
-	4700 1450 4800 1450
-Connection ~ 4800 1450
-Wire Wire Line
-	4800 1450 4800 3250
-Wire Wire Line
-	4700 1050 4400 1050
-Wire Wire Line
-	4400 1050 4400 1700
-Connection ~ 4700 1050
-Wire Wire Line
-	4700 1050 4700 1150
-Wire Wire Line
-	3850 900  3850 1050
-Wire Wire Line
-	3850 1050 3550 1050
-Wire Wire Line
-	3550 1050 3550 1700
-Connection ~ 3850 1050
-Wire Wire Line
-	3850 1050 3850 1150
+	1550 4500 1550 4400
 $Comp
 L Connector:Screw_Terminal_01x02 J?
 U 1 1 6081D795
-P 2800 750
-F 0 "J?" V 2764 562 50  0001 R CNN
-F 1 "Screw_Terminal_01x02" H 3000 850 50  0000 R CNN
-F 2 "" H 2800 750 50  0001 C CNN
-F 3 "~" H 2800 750 50  0001 C CNN
-	1    2800 750 
+P 3050 750
+F 0 "J?" V 3014 562 50  0001 R CNN
+F 1 "Screw_Terminal_01x02" H 3250 850 50  0000 R CNN
+F 2 "" H 3050 750 50  0001 C CNN
+F 3 "~" H 3050 750 50  0001 C CNN
+	1    3050 750 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J?
 U 1 1 608229D5
-P 3250 750
-F 0 "J?" V 3214 562 50  0001 R CNN
-F 1 "Screw_Terminal_01x02" H 3450 850 50  0000 R CNN
-F 2 "" H 3250 750 50  0001 C CNN
-F 3 "~" H 3250 750 50  0001 C CNN
-	1    3250 750 
+P 3650 750
+F 0 "J?" V 3614 562 50  0001 R CNN
+F 1 "Screw_Terminal_01x02" H 3850 850 50  0000 R CNN
+F 2 "" H 3650 750 50  0001 C CNN
+F 3 "~" H 3650 750 50  0001 C CNN
+	1    3650 750 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6082A5BE
-P 3350 950
-F 0 "#PWR?" H 3350 700 50  0001 C CNN
-F 1 "GND" H 3355 777 50  0000 C CNN
-F 2 "" H 3350 950 50  0001 C CNN
-F 3 "" H 3350 950 50  0001 C CNN
-	1    3350 950 
+P 3750 950
+F 0 "#PWR?" H 3750 700 50  0001 C CNN
+F 1 "GND" H 3755 777 50  0000 C CNN
+F 2 "" H 3750 950 50  0001 C CNN
+F 3 "" H 3750 950 50  0001 C CNN
+	1    3750 950 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6082ADA1
-P 2900 950
-F 0 "#PWR?" H 2900 700 50  0001 C CNN
-F 1 "GND" H 2905 777 50  0000 C CNN
-F 2 "" H 2900 950 50  0001 C CNN
-F 3 "" H 2900 950 50  0001 C CNN
-	1    2900 950 
+P 3150 950
+F 0 "#PWR?" H 3150 700 50  0001 C CNN
+F 1 "GND" H 3155 777 50  0000 C CNN
+F 2 "" H 3150 950 50  0001 C CNN
+F 3 "" H 3150 950 50  0001 C CNN
+	1    3150 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 950  2800 2800
+	3050 950  3050 2800
 Connection ~ 2250 2800
+$Comp
+L promicro:ProMicro U?
+U 1 1 6084F0C6
+P 3500 6500
+F 0 "U?" H 3500 7537 60  0001 C CNN
+F 1 "Arduino_Pro_Micro_5V" H 3500 7431 60  0000 C CNN
+F 2 "" H 3600 5450 60  0000 C CNN
+F 3 "" H 3600 5450 60  0000 C CNN
+	1    3500 6500
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	3250 950  3250 3250
-Connection ~ 3250 3250
+	1450 4500 1550 4500
 Wire Wire Line
-	3250 3250 3950 3250
+	1550 5250 1550 4500
+Connection ~ 1550 5250
+Connection ~ 1550 4500
 Wire Wire Line
-	2550 3250 3250 3250
+	1000 4500 1150 4500
 Wire Wire Line
-	2250 2800 2800 2800
+	1000 5350 1150 5350
+Wire Wire Line
+	3650 950  3650 3250
+Wire Wire Line
+	2250 2800 3050 2800
+Wire Wire Line
+	2550 3250 3050 3250
+Wire Wire Line
+	1550 4400 1550 3950
+Wire Wire Line
+	1550 3950 3050 3950
+Wire Wire Line
+	3050 3950 3050 3250
+Connection ~ 1550 4400
+Connection ~ 3050 3250
+Wire Wire Line
+	3050 3250 3650 3250
+Wire Wire Line
+	1150 4500 1150 4800
+Connection ~ 1150 4500
+Wire Wire Line
+	1150 4500 1250 4500
+Wire Wire Line
+	1150 5350 1150 5650
+Connection ~ 1150 5350
+Wire Wire Line
+	1150 5350 1250 5350
+Wire Wire Line
+	2300 6550 2300 4800
+Wire Wire Line
+	2300 4800 1150 4800
+Wire Wire Line
+	2300 6550 2800 6550
+Wire Wire Line
+	2200 6650 2200 5650
+Wire Wire Line
+	2200 5650 1150 5650
+Wire Wire Line
+	2200 6650 2800 6650
+$Comp
+L Connector_Generic:Conn_02x03_Top_Bottom J?
+U 1 1 6091FAD6
+P 1950 7550
+F 0 "J?" H 2000 7867 50  0001 C CNN
+F 1 "Conn_02x03_Top_Bottom" H 2000 7775 50  0000 C CNN
+F 2 "" H 1950 7550 50  0001 C CNN
+F 3 "~" H 1950 7550 50  0001 C CNN
+	1    1950 7550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
