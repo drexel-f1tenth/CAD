@@ -1,0 +1,237 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 694106301002:694106301002 J?
+U 1 1 607200F8
+P 950 2350
+F 0 "J?" H 970 2590 50  0001 C CNN
+F 1 "694106301002" H 970 2499 50  0000 C CNN
+F 2 "694106301002" H 950 2350 50  0001 L BNN
+F 3 "" H 950 2350 50  0001 L BNN
+F 4 "30V(AC)" H 950 2350 50  0001 L BNN "WORKING-VOLTAGE"
+F 5 "5A" H 950 2350 50  0001 L BNN "IR"
+F 6 "Right Angled" H 950 2350 50  0001 L BNN "TYPE"
+F 7 "694106301002" H 950 2350 50  0001 L BNN "PART-NUMBER"
+F 8 "https://katalog.we-online.com/em/datasheet/694106301002.pdf" H 950 2350 50  0001 L BNN "DATASHEET-URL"
+F 9 "THT" H 950 2350 50  0001 L BNN "MOUNT"
+	1    950  2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 60721CE3
+P 1700 2350
+F 0 "SW?" H 1700 2585 50  0001 C CNN
+F 1 "SW_SPST" H 1700 2494 50  0000 C CNN
+F 2 "" H 1700 2350 50  0001 C CNN
+F 3 "~" H 1700 2350 50  0001 C CNN
+	1    1700 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2550 1200 2550
+Wire Wire Line
+	1150 2450 1200 2450
+$Comp
+L dk_PMIC-Voltage-Regulators-Linear:MC7805CTG U?
+U 1 1 6071BAB9
+P 3100 1050
+F 0 "U?" H 3100 1337 60  0001 C CNN
+F 1 "MC7805CTG" H 3100 1231 60  0000 C CNN
+F 2 "digikey-footprints:TO-220-3" H 3300 1250 60  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC7800-D.PDF" H 3300 1350 60  0001 L CNN
+F 4 "MC7805CTGOS-ND" H 3300 1450 60  0001 L CNN "Digi-Key_PN"
+F 5 "MC7805CTG" H 3300 1550 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 3300 1650 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Linear" H 3300 1750 60  0001 L CNN "Family"
+F 8 "http://www.onsemi.com/pub/Collateral/MC7800-D.PDF" H 3300 1850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/MC7805CTG/MC7805CTGOS-ND/919333" H 3300 1950 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC REG LINEAR 5V 1A TO220AB" H 3300 2050 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 3300 2150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3300 2250 60  0001 L CNN "Status"
+	1    3100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021-04-10_14-56-26:FK24X7R1C335K FK24X7R1C335K
+U 1 1 6071F706
+P 2750 1450
+F 0 "FK24X7R1C335K" H 2900 1713 60  0000 C CNN
+F 1 "3.3μF" H 2900 1607 60  0000 C CNN
+F 2 "CAP_R4525b_TDK" H 2900 1090 60  0001 C CNN
+F 3 "" H 2750 1450 60  0000 C CNN
+	1    2750 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1200 2550 1200 2450
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 608229D5
+P 5350 2750
+F 0 "J?" V 5314 2562 50  0001 R CNN
+F 1 "Screw_Terminal_01x02" H 5550 2850 50  0000 R CNN
+F 2 "" H 5350 2750 50  0001 C CNN
+F 3 "~" H 5350 2750 50  0001 C CNN
+	1    5350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1450 3100 1350
+Wire Wire Line
+	3100 1450 2750 1450
+Wire Wire Line
+	1150 2350 1500 2350
+Wire Wire Line
+	1900 2350 2050 2350
+Wire Wire Line
+	2450 1450 2050 1450
+Wire Wire Line
+	2050 1450 2050 2350
+Connection ~ 2050 2350
+Wire Wire Line
+	2050 2350 2250 2350
+Wire Wire Line
+	2050 1450 2050 1050
+Wire Wire Line
+	2050 1050 2800 1050
+Connection ~ 2050 1450
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 6092133B
+P 5350 2350
+F 0 "J?" V 5314 2162 50  0001 R CNN
+F 1 "Screw_Terminal_01x02" H 5550 2450 50  0000 R CNN
+F 2 "" H 5350 2350 50  0001 C CNN
+F 3 "~" H 5350 2350 50  0001 C CNN
+	1    5350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 609222E9
+P 5350 1050
+F 0 "J?" V 5314 862 50  0001 R CNN
+F 1 "Screw_Terminal_01x02" H 5550 1150 50  0000 R CNN
+F 2 "" H 5350 1050 50  0001 C CNN
+F 3 "~" H 5350 1050 50  0001 C CNN
+	1    5350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 60922953
+P 5350 1450
+F 0 "J?" V 5314 1262 50  0001 R CNN
+F 1 "Screw_Terminal_01x02" H 5550 1550 50  0000 R CNN
+F 2 "" H 5350 1450 50  0001 C CNN
+F 3 "~" H 5350 1450 50  0001 C CNN
+	1    5350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 60922EAD
+P 5350 1850
+F 0 "J?" V 5314 1662 50  0001 R CNN
+F 1 "Screw_Terminal_01x02" H 5550 1950 50  0000 R CNN
+F 2 "" H 5350 1850 50  0001 C CNN
+F 3 "~" H 5350 1850 50  0001 C CNN
+	1    5350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PDQ30-Q24-S12-D:PDQ30-Q24-S12-D U?
+U 1 1 6071D288
+P 2950 2550
+F 0 "U?" H 2950 3117 50  0001 C CNN
+F 1 "PDQ30-Q24-S12-D" H 2950 3026 50  0000 C CNN
+F 2 "CONV_PDQ30-Q24-S12-D" H 2950 2550 50  0001 L BNN
+F 3 "" H 2950 2550 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 2950 2550 50  0001 L BNN "STANDARD"
+F 5 "CUI Inc" H 2950 2550 50  0001 L BNN "MANUFACTURER"
+F 6 "1.0" H 2950 2550 50  0001 L BNN "PARTREV"
+	1    2950 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 1450
+Wire Wire Line
+	3650 2350 4650 2350
+Wire Wire Line
+	3650 2450 4550 2450
+Wire Wire Line
+	4650 2750 4650 2350
+Wire Wire Line
+	4650 2750 5150 2750
+Connection ~ 4650 2350
+Wire Wire Line
+	4650 2350 5150 2350
+Wire Wire Line
+	4550 2450 4550 2850
+Wire Wire Line
+	4550 2850 5150 2850
+Connection ~ 4550 2450
+Wire Wire Line
+	4550 2450 5150 2450
+Wire Wire Line
+	3400 1050 4650 1050
+Wire Wire Line
+	5150 1850 4650 1850
+Wire Wire Line
+	4650 1850 4650 1450
+Connection ~ 4650 1050
+Wire Wire Line
+	4650 1050 5150 1050
+Wire Wire Line
+	5150 1450 4650 1450
+Connection ~ 4650 1450
+Wire Wire Line
+	4650 1450 4650 1050
+Wire Wire Line
+	5150 1150 4550 1150
+Wire Wire Line
+	3400 1150 3400 1450
+Wire Wire Line
+	3400 1450 3100 1450
+Wire Wire Line
+	5150 1550 4550 1550
+Wire Wire Line
+	4550 1550 4550 1150
+Connection ~ 4550 1150
+Wire Wire Line
+	4550 1150 3400 1150
+Wire Wire Line
+	5150 1950 4550 1950
+Wire Wire Line
+	4550 1950 4550 1550
+Connection ~ 4550 1550
+Connection ~ 1200 2450
+Wire Wire Line
+	1200 2450 2150 2450
+Wire Wire Line
+	3100 1450 3100 1900
+Wire Wire Line
+	3100 1900 2150 1900
+Wire Wire Line
+	2150 1900 2150 2450
+Connection ~ 2150 2450
+Wire Wire Line
+	2150 2450 2250 2450
+Text Label 4000 1050 0    50   ~ 0
+5V
+Text Label 4000 2350 0    50   ~ 0
+12V
+$EndSCHEMATC
