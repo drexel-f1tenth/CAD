@@ -1,0 +1,160 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_R_Small_US
+#
+DEF Device_R_Small_US R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small_US" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Sensor_Motion_ICM-20948
+#
+DEF Sensor_Motion_ICM-20948 U 0 20 Y Y 1 F N
+F0 "U" -450 650 50 H V C CNN
+F1 "Sensor_Motion_ICM-20948" 300 -650 50 H V C CNN
+F2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" 0 -1000 50 H I C CNN
+F3 "" 0 -150 50 H I C CNN
+$FPLIST
+ InvenSense?QFN*3x3mm*P0.4mm*
+$ENDFPLIST
+DRAW
+S -400 600 400 -600 0 1 10 f
+X NC 1 -400 500 100 R 50 50 1 1 N N
+X REGOUT 10 500 -200 100 L 50 50 1 1 P
+X FSYNC 11 -500 -200 100 R 50 50 1 1 I
+X INT1 12 -500 -300 100 R 50 50 1 1 O
+X VDD 13 100 700 100 D 50 50 1 1 W
+X NC 14 400 300 100 L 50 50 1 1 N N
+X NC 15 400 200 100 L 50 50 1 1 N N
+X NC 16 400 -300 100 L 50 50 1 1 N N
+X NC 17 400 -400 100 L 50 50 1 1 N N
+X GND 18 0 -700 100 U 50 50 1 1 W
+X RESV 19 400 -500 100 L 50 50 1 1 N N
+X NC 2 -400 400 100 R 50 50 1 1 N N
+X GND 20 0 -700 100 U 50 50 1 1 P N
+X AUX_DA 21 500 100 100 L 50 50 1 1 B
+X ~CS 22 -500 0 100 R 50 50 1 1 I
+X SCL/SCLK 23 -500 100 100 R 50 50 1 1 I
+X SDA/SDI 24 -500 200 100 R 50 50 1 1 B
+X NC 3 -400 -100 100 R 50 50 1 1 N N
+X NC 4 -400 -400 100 R 50 50 1 1 N N
+X NC 5 -400 -500 100 R 50 50 1 1 N N
+X NC 6 400 400 100 L 50 50 1 1 N N
+X AUX_CL 7 500 0 100 L 50 50 1 1 O
+X VDDIO 8 -100 700 100 D 50 50 1 1 W
+X SDO/AD0 9 -500 300 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# arduino-uno-r3_Arduino_UNO_R3
+#
+DEF arduino-uno-r3_Arduino_UNO_R3 A 0 20 Y Y 1 F N
+F0 "A" -400 925 50 H V L BNN
+F1 "arduino-uno-r3_Arduino_UNO_R3" -300 1000 50 H V L TNN
+F2 "Module:Arduino_UNO_R3" 0 -1050 50 H I C CIN
+F3 "" 0 -1050 50 H I C CNN
+$FPLIST
+ Arduino*UNO*R3*
+$ENDFPLIST
+DRAW
+S -400 900 400 -1000 0 1 10 f
+X NC 1 -500 800 100 R 50 50 1 1 N N
+X A1 10 -500 -200 100 R 50 50 1 1 B
+X A2 11 -500 -300 100 R 50 50 1 1 B
+X A3 12 -500 -400 100 R 50 50 1 1 B
+X SDA/A4 13 -500 -500 100 R 50 50 1 1 B
+X SCL/A5 14 -500 -600 100 R 50 50 1 1 B
+X D0/RX 15 500 -900 100 L 50 50 1 1 B
+X D1/TX 16 500 -800 100 L 50 50 1 1 B
+X D2 17 500 -700 100 L 50 50 1 1 B
+X D3 18 500 -600 100 L 50 50 1 1 B
+X D4 19 500 -500 100 L 50 50 1 1 B
+X IOREF 2 -500 700 100 R 50 50 1 1 O
+X D5 20 500 -400 100 L 50 50 1 1 B
+X D6 21 500 -300 100 L 50 50 1 1 B
+X D7 22 500 -200 100 L 50 50 1 1 B
+X D8 23 500 -100 100 L 50 50 1 1 B
+X D9 24 500 0 100 L 50 50 1 1 B
+X D10 25 500 100 100 L 50 50 1 1 B
+X D11 26 500 200 100 L 50 50 1 1 B
+X D12 27 500 300 100 L 50 50 1 1 B
+X D13 28 500 400 100 L 50 50 1 1 B
+X GND 29 500 500 100 L 50 50 1 1 W
+X ~RESET 3 -500 600 100 R 50 50 1 1 I
+X AREF 30 500 600 100 L 50 50 1 1 I
+X SDA/A4 31 500 800 100 L 50 50 1 1 B
+X SCL/A5 32 500 700 100 L 50 50 1 1 B
+X 3V3 4 -500 500 100 R 50 50 1 1 w
+X +5V 5 -500 400 100 R 50 50 1 1 w
+X GND 6 -500 300 100 R 50 50 1 1 W
+X GND 7 -500 200 100 R 50 50 1 1 W
+X VIN 8 -500 100 100 R 50 50 1 1 W
+X A0 9 -500 -100 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# dk_Rectangular-Connectors-Headers-Male-Pins_640456-2
+#
+DEF dk_Rectangular-Connectors-Headers-Male-Pins_640456-2 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "dk_Rectangular-Connectors-Headers-Male-Pins_640456-2" 50 -150 50 H V C CNN
+F2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" 200 300 60 H I L CNN
+F4 "A1921-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "640456-2" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/te-connectivity-amp-connectors/640456-2/A1921-ND/109003" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER VERT 2POS 2.54MM" 200 1000 60 H I L CNN "Description"
+F11 "TE Connectivity AMP Connectors" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 0 150 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Rectangular-Connectors-Headers-Male-Pins_640456-3
+#
+DEF dk_Rectangular-Connectors-Headers-Male-Pins_640456-3 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "dk_Rectangular-Connectors-Headers-Male-Pins_640456-3" 100 -150 50 H V C CNN
+F2 "digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm" 200 200 60 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" 200 300 60 H I L CNN
+F4 "A19470-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "640456-3" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/te-connectivity-amp-connectors/640456-3/A19470-ND/259010" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER VERT 3POS 2.54MM" 200 1000 60 H I L CNN "Description"
+F11 "TE Connectivity AMP Connectors" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 0 250 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+S 190 -45 210 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+X ~ 3 200 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
